@@ -1,4 +1,7 @@
 from modules.functions import get_todos, write_todos
+from time import strftime
+
+print(strftime("It is %b %d, %Y %H:%M:%S")) 
 while True:
     user_action = input("Type add, show, edit, complete or exit: ")
     user_action = user_action.strip()
