@@ -19,7 +19,5 @@ while True:
             write_todos(todos)
         case sg.WIN_CLOSED:
             break
-        case "Exit":
-            break
 
 window.close()
